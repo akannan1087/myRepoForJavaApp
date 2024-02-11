@@ -4,5 +4,7 @@ jobs:
   my-job:
     runs-on: ubuntu-latest
     steps:
-      - name: this-my-step
+      - name: this-my-step-no-1
         run: echo "Hello People!"
+      - name: this-my-step-no-2
+        run: echo "This is GitHub Action!"
