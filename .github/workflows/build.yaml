@@ -5,6 +5,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+    SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+  
     steps:
     - uses: actions/checkout@v3
     - name: Set up JDK 11
@@ -14,3 +17,11 @@ jobs:
         java-version: '11'
     - name: Build with Maven
       run: mvn clean install -f MyWebApp/pom.xml
+    - name: slack - GitHub Actions Slack integration
+      uses: act10ns/slack@v2.0.0
+      with:
+        status: ${{ job.status }}
+        steps: ${{ toJson(steps) }}
+        channel: '#feb-2024-weekend-batch'
+      if: always()
+            
