@@ -6,8 +6,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-    SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-  
+      SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
     steps:
     - uses: actions/checkout@v3
     - name: Set up JDK 11
