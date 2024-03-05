@@ -17,6 +17,8 @@ jobs:
     - name: Build with Maven
       run: mvn clean install -f MyWebApp/pom.xml
     - name: print workspace dir
-      run: echo "$GITHUB_WORKSPACE"
+      run: echo "$GITHUB_WORKSPACE" 
+    - name: print workspace dir1
+      run: echo "${{ github.workspace }}"
 
             
