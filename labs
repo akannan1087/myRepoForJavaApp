@@ -56,6 +56,7 @@ Lab 54 - Automate infra using Terraform in Azure cloud using ADO Pipeline, store
 Lab 55 - AKS cluster setup using azure cli
 Lab 56 - Deploy springboot app container into AKS using ADO pipeline and downloading image from ACR
 Lab 57 - Deploy springboot app container into AKS using Helm + ADO pipeline and downloading image from ACR
+Lab 58 - DevSecOps - How to Perform Security scan for Azure Repos using GitHub Advanced Security?
 
 
 Bonus labs 
