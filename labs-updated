@@ -1,0 +1,126 @@
+every session ~ 2 hrs
+
+Session 1 - students intro, meet coach ak
+Session 2 - devops intro slide
+Session 3 - implement cicd for a team with no automation
+https://www.coachdevops.com/2022/10/cicd-process-flow-diagram-implement.html
+
+lab 0 - EC2 instances setup
+lab 1 - Install jenkins and tomcat
+Session 4 
+lab 2 - Setup java project in Github, cover basics of Git commands, basics about Maven
+lab 3 - basic freestyle job creation using Jenkins and deploy Java Web App into Tomcat, Integrate with Jacoco using poll scm
+
+Session 5 
+lab 4 - webhooks concepts trigger jenkins job instantly - github webhooks code changes
+lab 5 - making code changes to trigger jenkins job instantly
+lab 6 - sonarqube setup and integrate wt Jenkins to automate code scan
+
+session 6
+lab 7 - Nexus setup and integrate with Jenkins
+lab 8 - Slack intgeration with Jenkins for immediate feedback
+
+session 7
+lab 9 - Kick start Jenkins build from Slack channel
+Lab 10 - one Jenkins job trigger another jenkins job
+lab 11 - jenkins agent setup to scale up
+
+session 8
+lab 12 - scripted pipeline implementation to do CICD
+
+session 9
+lab 13 - Declarative pipeline implementation to do CICD
+
+session 10
+lab 14 - Sonarqube quality gate implementation - force build to pass or fail
+lab 15 - Trivy implementation to scan code for vulerabilities
+
+session 11
+lab 16 - multi branch pipeline, configure webhooks 
+
+session 12
+lab 17 - Github CICD - Deploy Java Web App into Tomcat
+lab 18 - Github CICD - Integrate with Sonarqube
+
+session 13
+lab 19 - Github CICD - Integrate with Slack
+lab 20 - Github CICD - Integrate with Quality gate
+lab 21 - Github Self hosted runners configuration and implementation
+
+session 14
+lab 22 - GitLab CICD - Automate Java Web App and Deploy into Tomcat
+
+session 15
+lab 23 - GitLab CICD - Automate Code Quality Scan using SoanrQube
+Lab 24 - How to Setup Self-Hosted Linux Runner in GitLab | How to configure Docker Executor for GitLab Pipelines 
+
+session 16 - Terraform intro
+lab 25 - Terraform install on Ubuntu Ec2/windows/Mac OS
+Lab 26 - Create new EC2 instance, EIP, sec group, vpc
+
+session 17
+Lab 27 - Scan TF code finding security issues using Checkov
+lab 28 - Terraform Destroy labs
+lab 29 - Automate IAC creation using Jenkins Terraform, Terraform state file usage, S3 backend
+
+session 18
+Lab 30 - Ansible installation on Linux, MacOS 
+Lab 31 - Create EC2, S3, sec group using Ansible role
+Lab 32 - How to setup Java, Maven, Jenkins using ansible role
+Lab 33 - How to set LAMP stack using Ansible (optioanl)
+Lab 34 - How to Terminate Ec2/resources using ansible
+
+session 19 - Docker intro
+Lab 35 - Docker installation on jenkins ec2 instance, Integrate both Docker and Jenkins
+Lab 36 - Create a docker image manually for a springboot app and upload into ECR manually, create iam role, add policy to ec2 to int with ecr
+
+session 20
+Lab 37 - Create a docker image for springboot app and upload into ECR using Jenkins Pipeline
+Lab 38 - scan docker image using Aqua Trivy for vulnerabilities in Jenkins pipeline, fail/pass build exit code
+Lab 39 - Create a docker image for springboot app and upload into Nexus using Jenkins Pipeline
+
+session 21 - K8s Intro
+Lab 40 - Create EKS cluster using eksctl command
+Lab 41 - Create CICD Jenkins pipeline and deploy springboot app container into EKS using kubectl CLI and by downloading image from ecr
+
+session 22 - Helm Intro
+Lab 42 - Helm - Create CICD Jenkins pipeline and deploy springboot app container into EKS by downloading image from ecr using Helm
+Lab 43 - Prometheus and Grafana setup using Helm for EKS monitoring
+
+session 23 - Azure Intro
+Lab 44 - Azure DevOps setup, Azure cloud account setup, co-pilot
+Lab 45 - Create CICD pipeline using Classic Pipeline for java project done in lab2 above in GitHub
+Lab 46 - Create CICD pipeline using Classic Pipeline for java project configured in Bitbucket
+
+session 24 - yaml pipeline
+Lab 47 - Create CICD pipeline using Yaml Pipeline for java project done in lab2 above in GitHub
+Lab 48 - Create VM in Azure, Setup ssh keys and Java project in Azure Repos
+Lab 49 - Create CICD pipeline using Yaml Pipeline for java project done in lab2 above in GitHub
+
+session 25 - Azure more labs
+Lab 50 - Setup Sonarqube in Azure cloud and integrate with ADO pipelines
+Lab 51 - Send Slack notifications from ADO pipelines for immediate feedback
+Lab 52 - Configure Self hosted runner in Azure and integrate with ADO
+
+session 26 - Azure
+Lab 53 - Create infra using Terraform in Azure cloud using terraform cli
+Lab 54 - Automate infra using Terraform in Azure cloud using ADO Pipeline, store state file in azure storage blog
+
+session 27 - Azure
+Lab 55 - AKS cluster setup using azure cli
+Lab 56 - Deploy springboot app container into AKS using ADO pipeline and downloading image from ACR
+Lab 57 - Deploy springboot app container into AKS using Helm + ADO pipeline and downloading image from ACR
+
+
+Bonus labs not covered in the live classes only emails
+Bonus Lab 1 - Setup java project in Bitbucket, cover basics of Git commands, basics about Maven
+Bonus lab 2 - basic freestyle job creation using Jenkins and deploy Java Web App into Tomcat, Integrate with Jacoco using poll scm
+Bonus lab 3 - Learn webhooks concepts trigger jenkins job instantly using Bitbucket code changes
+Bonus lab 4 - Artifactory setup in EC2 and inegrate with Jenkins
+Bonus lab 5 - Setup VS code on your local machine, configure github/bibtbucket for writing code
+Bonus lab 6 - 
+
+Session 28 - Interview & Resume preparation class
+
+AI labs 1-4 - do not know where to plug-it in..
+More AI labs - Agent creation using python  - Devops ai assistant agent - do not know where to put this also?..
