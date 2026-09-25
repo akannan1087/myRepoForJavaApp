@@ -37,7 +37,7 @@ pipeline {
         
         stage ("Slack") {
             steps {
-                slackSend channel: 'mar-2023-weekday-batch', message: 'DEV Deployment was success, please start your smoke testing..'
+                slackSend channel: 'mar-2023-weekday-batch', message: 'DEV Deployment was successfull, please start your performance testing and smoke testing'
             }
         }
         
